@@ -2,21 +2,15 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
+    <div class="row pt-5">
+        <div class="col-3">
+          <img src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" class="rounded-circle" style="height:6rem">
+        </div>
+        <div class="col-9">
+          <h1>freecodecamp</h1>
+          <label><strong>153</strong> posts</label>
+          <label><strong>23k</strong> followers</label>
+          <label><strong>121</strong> following</label>
         </div>
     </div>
 </div>
